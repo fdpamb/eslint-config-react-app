@@ -283,9 +283,10 @@ module.exports = {
     // https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks
     'react-hooks/rules-of-hooks': 'error',
 
-    // https://github.com/gajus/eslint-plugin-flowtype
-    'flowtype/define-flow-type': 'warn',
-    'flowtype/require-valid-file-annotation': 'warn',
-    'flowtype/use-flow-type': 'warn',
+    // https://github.com/gajus/eslint-plugin-flowtype // replaced with
+    // https://github.com/flow-typed/eslint-plugin-ft-flow
+    'ft-flow/define-flow-type': 'warn',
+    'ft-flow/require-valid-file-annotation': 'warn',
+    'ft-flow/use-flow-type': 'warn',
   },
 };
