@@ -1,0 +1,6 @@
+build/
+.directory
+node_modules/
+package-lock.json
+.project
+.settings/
