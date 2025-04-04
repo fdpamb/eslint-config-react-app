@@ -88,6 +88,7 @@ module.exports = {
         ],
         'no-useless-constructor': 'off',
         '@typescript-eslint/no-useless-constructor': 'warn',
+        '@typescript-eslint/consistent-type-exports': 'off',
       },
     },
   ],
